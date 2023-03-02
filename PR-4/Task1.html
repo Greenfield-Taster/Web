@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anketa</title>
+    <style>
+        body{
+            background-color: rgb(49, 28, 141);
+        }
+        .content{
+            background-color: rgb(80, 80, 155);
+            width: fit-content;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+      }  
+      .content img{
+        width: 500px;
+        margin: auto 0;
+      }
+      .content form{
+        margin-right: 150px;
+      }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <form>
+    <h3>Anketa</h3>
+    <h4>Please, answer the questions</h4>
+    <p>Name: <input name="name" size="30px"><br></p>
+            <p>
+                Men<input value="Men" type="checkbox" name="gender"><br>
+            </p>
+            <p>
+                Women<input value="Women" type="checkbox" name="gender"><br>
+            </p>
+        <p>
+            Country
+        </p>
+        <ul>
+            <li>
+                Ukraine <input value="ukraine" type="checkbox" name="Country"><br>
+            </li>
+            <li>
+                Belgia <input value="Belgia" type="checkbox" name="Country"><br>
+            </li>
+            <li>
+                Another one <input name="Country" size="30px"><br>
+            </li>
+        </ul>
+        <p>Email <input name="name" size="28px"><br></p>
+        <p>Kod <input name="name" size="29px"><br></p>
+        <p>Telephon <input name="name" size="24px"><br></p>
+        <p>What is your favorite hobby</p>
+        <input value="hobby1" type="radio" name="hobby">Programming<br>
+        <input value="hobby2" type="radio" name="hobby">Computer games<br>
+        <input value="hobby3" type="radio" name="hobby">Music<br>
+        <input value="hobby3" type="radio" name="hobby">I have no hobbies<br>
+        <p>Для подстверждения ввода нажмите на кнопку Отправить</p>
+        <p>Для сброса введенных данных надмите на кнопку Сброс</p>
+        <input type="submit">
+        <input type="reset">
+    </form>
+        <img src="https://vechirniy.kyiv.ua/uploads/2022/12/02/whatsappimage20221129at1357104.jpg">
+    </div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second-form</title>
+    <style>
+        .content{
+            font-size: large;
+            display: flex; /*на несколько колонок */
+            justify-content: space-around;
+        }
+        .All{
+            background-color: rgb(181, 230, 117);
+        }
+        h1,h3{
+            text-align: center;
+        }
+        #table{
+            padding: 15px 10px;
+            border: 2px solid #4a0cdb;
+            height: fit-content;
+        }
+        #caption_table{
+            margin: 0;
+            padding: 0;
+        }
+        #table input{
+            margin-left: 10px;
+        }
+        img{
+            width: 250px;
+            margin: 0 auto;
+            border-radius: 5%;
+        }
+        </style>
+</head>
+<body>
+    <div class="All">
+        <form action="https://4ebur.net/">
+        <h1>Пример формы</h1>
+        <h3>Заполните поля</h3>
+        <div class="content">
+            <div class="Colum1">
+            <p>Ваше имя: <input name="name" size="20px"><br></p>
+            <p id="caption_table">Вход на сайт</p>
+                <div id="table">
+                    <p>Логін <input type="text" placeholder="Login"></p>
+                    <p>Пароль<input type="password" placeholder="password"></p>
+                    <input type="submit" value="Відправити">
+                </div>
+            <p>Введите Ваш отзыв:<br>
+                <textarea name="comment" cols="33" rows="5"></textarea>
+            </p>
+                <p>Электронный адрес:<br><input name="name" size="20px" placeholder="user@gmail.com"><br></p>
+                <p>Телефон:<br> <input name="name" size="10px"><br></p>
+                <p>Загрузка файла<br><input type="file" name="file"></p>
+            </div>
+            <div class="Colum2">
+                <p>Выбрать цвет  
+                    <input type="color"><br>
+                    <input type="submit" value="Выбрать">
+                </p>
+                <p>Выберите число от 1 до 10
+                    <select>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                    </select>
+                </p>
+                <p>Это ползунок
+                    <input type="range" min="0" max="100" step="1" value="50">
+                </p>
+                <p>Выберите дату<br>
+                    <input type="date" id="start" name="trip-start"
+                    value="2023-02-16"
+                    min="1919-01-01" 
+                    max="3000-12-31">
+                </p>
+                <p>Установите время<br>
+                    <input type="time" value="07:00">
+                </p>
+                        <p>Поле для поиска<br>
+                        <input type="search" placeholder="Искать здесь...">
+                        <input type="submit" value="Search"></input>
+                        </p>
+                    </div>
+                    <div class="Colum3">
+                        <p>Выберите оптимальное время для сна<br>
+                            <select>
+                                <option value="">00:00</option>
+                                <option value="">09:00</option>
+                                <option value="">16:00</option>
+                                <option value="">21:00</option>
+                            </select>
+                        </p>
+                        <p>Введите Web-адрес<br>
+                            <input type="text" size="38px">
+                        </p>
+                        <img src="https://vechirniy.kyiv.ua/uploads/2022/12/02/whatsappimage20221129at1357104.jpg" alt="sorry">
+                        <p>Для подстверждения ввода нажмите на кнопку Отправить</p>
+                        <p>Для сброса введенных данных надмите на кнопку Сброс</p>
+                        <input type="submit">
+                        <input type="reset">
+                    </div>
+                </div>
+            </form>
+    </div>
+</body>
+</html>
