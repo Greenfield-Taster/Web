@@ -3,7 +3,7 @@ body{
     margin: 0 auto;
 }
 .main{
-    width: 1000px;
+    width: 100%;
 }
 .Start{
     background-color: rgb(32, 124, 124);
@@ -12,6 +12,7 @@ body{
 .Start p{
     margin-left: 125px;
     font-size: 32px;
+    text-align: center;
 }
 .Start img{
     width: 155px;
