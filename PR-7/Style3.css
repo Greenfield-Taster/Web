@@ -1,0 +1,25 @@
+.flex-container{
+display: flex;
+border: 1px solid #ccc;
+}
+.row{
+flex-direction: row;
+}
+.row-reverse{
+flex-direction: row-reverse;
+}
+.flex-item{
+    font-size: 1.1em;
+    width: auto;
+    text-align: center;
+    padding: 1.5em;
+}
+.color1{
+    background-color: rgb(166, 255, 185);
+}
+.color2{
+    background-color: rgb(129, 127, 238);
+}
+.color3{
+    background-color: rgb(248, 131, 223);
+}
